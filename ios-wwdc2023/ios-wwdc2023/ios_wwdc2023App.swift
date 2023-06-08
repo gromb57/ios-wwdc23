@@ -13,7 +13,7 @@ struct ios_wwdc2023App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
         .modelContainer(for: Item.self)
     }
