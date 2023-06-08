@@ -13,6 +13,9 @@ struct MenuView: View {
             NavigationLink("ContentView") {
                 ContentView()
             }
+            NavigationLink("Animation") {
+                AnimationView()
+            }
             NavigationLink("SharePlay") {
                 SharePlayView(viewModel: SharePlayViewModel(model: SharePlayModel()))
             }

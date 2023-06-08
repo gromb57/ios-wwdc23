@@ -12,6 +12,12 @@
 		A00D53C62A3224FB00597BD5 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53C52A3224FB00597BD5 /* SharePlayActivity.swift */; };
 		A00D53C82A32251400597BD5 /* SharePlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53C72A32251400597BD5 /* SharePlayModel.swift */; };
 		A00D53CA2A32252800597BD5 /* SharePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53C92A32252800597BD5 /* SharePlayViewModel.swift */; };
+		A00D53CD2A322E0100597BD5 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53CC2A322E0100597BD5 /* AvatarView.swift */; };
+		A00D53CF2A322FEA00597BD5 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53CE2A322FEA00597BD5 /* ReactionView.swift */; };
+		A00D53D22A3230F000597BD5 /* AnimationValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D12A3230F000597BD5 /* AnimationValues.swift */; };
+		A00D53D42A32336100597BD5 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D32A32336100597BD5 /* AnimationView.swift */; };
+		A00D53D62A3233EB00597BD5 /* ReactionWithKeyframesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D52A3233EB00597BD5 /* ReactionWithKeyframesView.swift */; };
+		A00D53D82A32348B00597BD5 /* RaceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D72A32348B00597BD5 /* RaceMap.swift */; };
 		A01403FC2A31F82C0040E2AF /* ios_wwdc2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */; };
 		A01403FE2A31F82C0040E2AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FD2A31F82C0040E2AF /* ContentView.swift */; };
 		A01404002A31F82E0040E2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01403FF2A31F82E0040E2AF /* Assets.xcassets */; };
@@ -45,6 +51,12 @@
 		A00D53C52A3224FB00597BD5 /* SharePlayActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayActivity.swift; sourceTree = "<group>"; };
 		A00D53C72A32251400597BD5 /* SharePlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayModel.swift; sourceTree = "<group>"; };
 		A00D53C92A32252800597BD5 /* SharePlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayViewModel.swift; sourceTree = "<group>"; };
+		A00D53CC2A322E0100597BD5 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		A00D53CE2A322FEA00597BD5 /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		A00D53D12A3230F000597BD5 /* AnimationValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationValues.swift; sourceTree = "<group>"; };
+		A00D53D32A32336100597BD5 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		A00D53D52A3233EB00597BD5 /* ReactionWithKeyframesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionWithKeyframesView.swift; sourceTree = "<group>"; };
+		A00D53D72A32348B00597BD5 /* RaceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceMap.swift; sourceTree = "<group>"; };
 		A01403F82A31F82C0040E2AF /* ios-wwdc2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-wwdc2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_wwdc2023App.swift; sourceTree = "<group>"; };
 		A01403FD2A31F82C0040E2AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +100,7 @@
 		A00D53C12A32095500597BD5 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				A00D53D02A32302D00597BD5 /* animation */,
 				A01403FD2A31F82C0040E2AF /* ContentView.swift */,
 				A00D53BF2A32094B00597BD5 /* MenuView.swift */,
 				A00D53C42A3224C500597BD5 /* shareplay */,
@@ -104,6 +117,19 @@
 				A00D53C92A32252800597BD5 /* SharePlayViewModel.swift */,
 			);
 			path = shareplay;
+			sourceTree = "<group>";
+		};
+		A00D53D02A32302D00597BD5 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				A00D53D12A3230F000597BD5 /* AnimationValues.swift */,
+				A00D53D32A32336100597BD5 /* AnimationView.swift */,
+				A00D53CC2A322E0100597BD5 /* AvatarView.swift */,
+				A00D53D72A32348B00597BD5 /* RaceMap.swift */,
+				A00D53CE2A322FEA00597BD5 /* ReactionView.swift */,
+				A00D53D52A3233EB00597BD5 /* ReactionWithKeyframesView.swift */,
+			);
+			path = animation;
 			sourceTree = "<group>";
 		};
 		A01403EF2A31F82C0040E2AF = {
@@ -129,8 +155,8 @@
 		A01403FA2A31F82C0040E2AF /* ios-wwdc2023 */ = {
 			isa = PBXGroup;
 			children = (
-				A00D53C12A32095500597BD5 /* components */,
 				A01403FF2A31F82E0040E2AF /* Assets.xcassets */,
+				A00D53C12A32095500597BD5 /* components */,
 				A01404072A31F82E0040E2AF /* Info.plist */,
 				A01404062A31F82E0040E2AF /* ios_wwdc2023.entitlements */,
 				A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */,
@@ -296,13 +322,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00D53CA2A32252800597BD5 /* SharePlayViewModel.swift in Sources */,
+				A00D53D82A32348B00597BD5 /* RaceMap.swift in Sources */,
 				A01403FE2A31F82C0040E2AF /* ContentView.swift in Sources */,
 				A00D53C02A32094B00597BD5 /* MenuView.swift in Sources */,
 				A00D53C62A3224FB00597BD5 /* SharePlayActivity.swift in Sources */,
 				A01404052A31F82E0040E2AF /* Item.swift in Sources */,
 				A01403FC2A31F82C0040E2AF /* ios_wwdc2023App.swift in Sources */,
+				A00D53D22A3230F000597BD5 /* AnimationValues.swift in Sources */,
 				A00D53C82A32251400597BD5 /* SharePlayModel.swift in Sources */,
+				A00D53CD2A322E0100597BD5 /* AvatarView.swift in Sources */,
+				A00D53D42A32336100597BD5 /* AnimationView.swift in Sources */,
+				A00D53D62A3233EB00597BD5 /* ReactionWithKeyframesView.swift in Sources */,
 				A00D53C32A3209EA00597BD5 /* SharePlayView.swift in Sources */,
+				A00D53CF2A322FEA00597BD5 /* ReactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
