@@ -21,6 +21,7 @@
 		A00D53DB2A33262D00597BD5 /* SpatialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53DA2A33262D00597BD5 /* SpatialView.swift */; };
 		A00D53DD2A33266000597BD5 /* GlobeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53DC2A33266000597BD5 /* GlobeModule.swift */; };
 		A00D53DF2A332FA000597BD5 /* Globe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A00D53DE2A332FA000597BD5 /* Globe.usdz */; };
+		A00D53E12A333CDE00597BD5 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = A00D53E02A333CDE00597BD5 /* Documentation.docc */; };
 		A01403FC2A31F82C0040E2AF /* ios_wwdc2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */; };
 		A01403FE2A31F82C0040E2AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FD2A31F82C0040E2AF /* ContentView.swift */; };
 		A01404002A31F82E0040E2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01403FF2A31F82E0040E2AF /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		A00D53DA2A33262D00597BD5 /* SpatialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialView.swift; sourceTree = "<group>"; };
 		A00D53DC2A33266000597BD5 /* GlobeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeModule.swift; sourceTree = "<group>"; };
 		A00D53DE2A332FA000597BD5 /* Globe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Globe.usdz; sourceTree = "<group>"; };
+		A00D53E02A333CDE00597BD5 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		A01403F82A31F82C0040E2AF /* ios-wwdc2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-wwdc2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_wwdc2023App.swift; sourceTree = "<group>"; };
 		A01403FD2A31F82C0040E2AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				A01403FF2A31F82E0040E2AF /* Assets.xcassets */,
 				A00D53C12A32095500597BD5 /* components */,
+				A00D53E02A333CDE00597BD5 /* Documentation.docc */,
 				A01404072A31F82E0040E2AF /* Info.plist */,
 				A01404062A31F82E0040E2AF /* ios_wwdc2023.entitlements */,
 				A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */,
@@ -352,6 +355,7 @@
 				A00D53D42A32336100597BD5 /* AnimationView.swift in Sources */,
 				A00D53DD2A33266000597BD5 /* GlobeModule.swift in Sources */,
 				A00D53D62A3233EB00597BD5 /* ReactionWithKeyframesView.swift in Sources */,
+				A00D53E12A333CDE00597BD5 /* Documentation.docc in Sources */,
 				A00D53DB2A33262D00597BD5 /* SpatialView.swift in Sources */,
 				A00D53C32A3209EA00597BD5 /* SharePlayView.swift in Sources */,
 				A00D53CF2A322FEA00597BD5 /* ReactionView.swift in Sources */,

@@ -8,6 +8,7 @@
 import SwiftUI
 import RealityKit
 
+/// Display a globe
 struct GlobeModule: View {
     var body: some View {
         Image("GlobeHero")
