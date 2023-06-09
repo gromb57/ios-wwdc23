@@ -19,6 +19,9 @@ struct MenuView: View {
             NavigationLink("SharePlay") {
                 SharePlayView(viewModel: SharePlayViewModel(model: SharePlayModel()))
             }
+            NavigationLink("Spatial") {
+                SpatialView()
+            }
         }
     }
 }

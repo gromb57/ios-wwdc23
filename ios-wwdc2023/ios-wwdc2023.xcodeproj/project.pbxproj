@@ -18,6 +18,9 @@
 		A00D53D42A32336100597BD5 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D32A32336100597BD5 /* AnimationView.swift */; };
 		A00D53D62A3233EB00597BD5 /* ReactionWithKeyframesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D52A3233EB00597BD5 /* ReactionWithKeyframesView.swift */; };
 		A00D53D82A32348B00597BD5 /* RaceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53D72A32348B00597BD5 /* RaceMap.swift */; };
+		A00D53DB2A33262D00597BD5 /* SpatialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53DA2A33262D00597BD5 /* SpatialView.swift */; };
+		A00D53DD2A33266000597BD5 /* GlobeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53DC2A33266000597BD5 /* GlobeModule.swift */; };
+		A00D53DF2A332FA000597BD5 /* Globe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A00D53DE2A332FA000597BD5 /* Globe.usdz */; };
 		A01403FC2A31F82C0040E2AF /* ios_wwdc2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */; };
 		A01403FE2A31F82C0040E2AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FD2A31F82C0040E2AF /* ContentView.swift */; };
 		A01404002A31F82E0040E2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01403FF2A31F82E0040E2AF /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		A00D53D32A32336100597BD5 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		A00D53D52A3233EB00597BD5 /* ReactionWithKeyframesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionWithKeyframesView.swift; sourceTree = "<group>"; };
 		A00D53D72A32348B00597BD5 /* RaceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceMap.swift; sourceTree = "<group>"; };
+		A00D53DA2A33262D00597BD5 /* SpatialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialView.swift; sourceTree = "<group>"; };
+		A00D53DC2A33266000597BD5 /* GlobeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeModule.swift; sourceTree = "<group>"; };
+		A00D53DE2A332FA000597BD5 /* Globe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Globe.usdz; sourceTree = "<group>"; };
 		A01403F82A31F82C0040E2AF /* ios-wwdc2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-wwdc2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_wwdc2023App.swift; sourceTree = "<group>"; };
 		A01403FD2A31F82C0040E2AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 				A01403FD2A31F82C0040E2AF /* ContentView.swift */,
 				A00D53BF2A32094B00597BD5 /* MenuView.swift */,
 				A00D53C42A3224C500597BD5 /* shareplay */,
+				A00D53D92A33261700597BD5 /* spatial */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -130,6 +137,16 @@
 				A00D53D52A3233EB00597BD5 /* ReactionWithKeyframesView.swift */,
 			);
 			path = animation;
+			sourceTree = "<group>";
+		};
+		A00D53D92A33261700597BD5 /* spatial */ = {
+			isa = PBXGroup;
+			children = (
+				A00D53DE2A332FA000597BD5 /* Globe.usdz */,
+				A00D53DC2A33266000597BD5 /* GlobeModule.swift */,
+				A00D53DA2A33262D00597BD5 /* SpatialView.swift */,
+			);
+			path = spatial;
 			sourceTree = "<group>";
 		};
 		A01403EF2A31F82C0040E2AF = {
@@ -296,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01404032A31F82E0040E2AF /* Preview Assets.xcassets in Resources */,
+				A00D53DF2A332FA000597BD5 /* Globe.usdz in Resources */,
 				A01404002A31F82E0040E2AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +350,9 @@
 				A00D53C82A32251400597BD5 /* SharePlayModel.swift in Sources */,
 				A00D53CD2A322E0100597BD5 /* AvatarView.swift in Sources */,
 				A00D53D42A32336100597BD5 /* AnimationView.swift in Sources */,
+				A00D53DD2A33266000597BD5 /* GlobeModule.swift in Sources */,
 				A00D53D62A3233EB00597BD5 /* ReactionWithKeyframesView.swift in Sources */,
+				A00D53DB2A33262D00597BD5 /* SpatialView.swift in Sources */,
 				A00D53C32A3209EA00597BD5 /* SharePlayView.swift in Sources */,
 				A00D53CF2A322FEA00597BD5 /* ReactionView.swift in Sources */,
 			);
@@ -508,6 +528,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,6 +560,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
