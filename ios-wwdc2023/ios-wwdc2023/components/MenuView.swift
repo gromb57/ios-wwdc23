@@ -16,6 +16,9 @@ struct MenuView: View {
             NavigationLink("Animation") {
                 AnimationView()
             }
+            NavigationLink("Localization") {
+                LocalizationView()
+            }
             NavigationLink("Logs") {
                 LogsView()
             }
