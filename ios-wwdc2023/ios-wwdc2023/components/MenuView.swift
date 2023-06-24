@@ -28,6 +28,9 @@ struct MenuView: View {
             NavigationLink("Spatial") {
                 SpatialView()
             }
+            NavigationLink("UIKit") {
+                UIKitView()
+            }
         }
     }
 }

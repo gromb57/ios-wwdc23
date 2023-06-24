@@ -15,6 +15,6 @@ struct ios_wwdc2023App: App {
         WindowGroup {
             MenuView()
         }
-        .modelContainer(for: Item.self)
+        //.modelContainer(for: Item.self)
     }
 }

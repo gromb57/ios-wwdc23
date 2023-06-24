@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A005E4AB2A3EEEB900CA6355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005E4AA2A3EEEB900CA6355 /* ViewController.swift */; };
 		A00D53C02A32094B00597BD5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53BF2A32094B00597BD5 /* MenuView.swift */; };
 		A00D53C32A3209EA00597BD5 /* SharePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53C22A3209EA00597BD5 /* SharePlayView.swift */; };
 		A00D53C62A3224FB00597BD5 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53C52A3224FB00597BD5 /* SharePlayActivity.swift */; };
@@ -27,13 +28,16 @@
 		A00D53E92A33B81400597BD5 /* LocalizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53E82A33B81400597BD5 /* LocalizationView.swift */; };
 		A00D53EB2A33B85E00597BD5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D53EA2A33B85E00597BD5 /* CardView.swift */; };
 		A01403FC2A31F82C0040E2AF /* ios_wwdc2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FB2A31F82C0040E2AF /* ios_wwdc2023App.swift */; };
-		A01403FE2A31F82C0040E2AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FD2A31F82C0040E2AF /* ContentView.swift */; };
 		A01404002A31F82E0040E2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01403FF2A31F82E0040E2AF /* Assets.xcassets */; };
 		A01404032A31F82E0040E2AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01404022A31F82E0040E2AF /* Preview Assets.xcassets */; };
-		A01404052A31F82E0040E2AF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01404042A31F82E0040E2AF /* Item.swift */; };
 		A01404112A31F82E0040E2AF /* ios_wwdc2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01404102A31F82E0040E2AF /* ios_wwdc2023Tests.swift */; };
 		A014041B2A31F82E0040E2AF /* ios_wwdc2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014041A2A31F82E0040E2AF /* ios_wwdc2023UITests.swift */; };
 		A014041D2A31F82E0040E2AF /* ios_wwdc2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014041C2A31F82E0040E2AF /* ios_wwdc2023UITestsLaunchTests.swift */; };
+		A04EB4FB2A45E0A500629A2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01403FD2A31F82C0040E2AF /* ContentView.swift */; };
+		A04EB4FC2A45E0A900629A2F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01404042A31F82E0040E2AF /* Item.swift */; };
+		A04EB4FE2A46D0D800629A2F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04EB4FD2A46D0D800629A2F /* Storyboard.storyboard */; };
+		A04EB5002A46D12B00629A2F /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EB4FF2A46D12B00629A2F /* UIKitView.swift */; };
+		A04EB5022A46D15600629A2F /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EB5012A46D15600629A2F /* UIKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A005E4AA2A3EEEB900CA6355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A00D53BF2A32094B00597BD5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A00D53C22A3209EA00597BD5 /* SharePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayView.swift; sourceTree = "<group>"; };
 		A00D53C52A3224FB00597BD5 /* SharePlayActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayActivity.swift; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 		A01404162A31F82E0040E2AF /* ios-wwdc2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-wwdc2023UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A014041A2A31F82E0040E2AF /* ios_wwdc2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_wwdc2023UITests.swift; sourceTree = "<group>"; };
 		A014041C2A31F82E0040E2AF /* ios_wwdc2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_wwdc2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A04EB4FD2A46D0D800629A2F /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A04EB4FF2A46D12B00629A2F /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		A04EB5012A46D15600629A2F /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A005E4A92A3EEE6200CA6355 /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				A04EB4FD2A46D0D800629A2F /* Storyboard.storyboard */,
+				A04EB4FF2A46D12B00629A2F /* UIKitView.swift */,
+				A04EB5012A46D15600629A2F /* UIKitViewController.swift */,
+				A005E4AA2A3EEEB900CA6355 /* ViewController.swift */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
 		A00D53C12A32095500597BD5 /* components */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +142,7 @@
 				A00D53BF2A32094B00597BD5 /* MenuView.swift */,
 				A00D53C42A3224C500597BD5 /* shareplay */,
 				A00D53D92A33261700597BD5 /* spatial */,
+				A005E4A92A3EEE6200CA6355 /* uikit */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -348,6 +368,7 @@
 				A00D53DF2A332FA000597BD5 /* Globe.usdz in Resources */,
 				A00D53E62A33B38400597BD5 /* Localizable.xcstrings in Resources */,
 				A01404002A31F82E0040E2AF /* Assets.xcassets in Resources */,
+				A04EB4FE2A46D0D800629A2F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,11 +396,12 @@
 				A00D53E92A33B81400597BD5 /* LocalizationView.swift in Sources */,
 				A00D53CA2A32252800597BD5 /* SharePlayViewModel.swift in Sources */,
 				A00D53D82A32348B00597BD5 /* RaceMap.swift in Sources */,
-				A01403FE2A31F82C0040E2AF /* ContentView.swift in Sources */,
 				A00D53C02A32094B00597BD5 /* MenuView.swift in Sources */,
+				A04EB5022A46D15600629A2F /* UIKitViewController.swift in Sources */,
+				A04EB4FC2A45E0A900629A2F /* Item.swift in Sources */,
 				A00D53C62A3224FB00597BD5 /* SharePlayActivity.swift in Sources */,
-				A01404052A31F82E0040E2AF /* Item.swift in Sources */,
 				A01403FC2A31F82C0040E2AF /* ios_wwdc2023App.swift in Sources */,
+				A04EB4FB2A45E0A500629A2F /* ContentView.swift in Sources */,
 				A00D53E42A3356B000597BD5 /* LogsView.swift in Sources */,
 				A00D53D22A3230F000597BD5 /* AnimationValues.swift in Sources */,
 				A00D53C82A32251400597BD5 /* SharePlayModel.swift in Sources */,
@@ -389,7 +411,9 @@
 				A00D53EB2A33B85E00597BD5 /* CardView.swift in Sources */,
 				A00D53D62A3233EB00597BD5 /* ReactionWithKeyframesView.swift in Sources */,
 				A00D53E12A333CDE00597BD5 /* Documentation.docc in Sources */,
+				A04EB5002A46D12B00629A2F /* UIKitView.swift in Sources */,
 				A00D53DB2A33262D00597BD5 /* SpatialView.swift in Sources */,
+				A005E4AB2A3EEEB900CA6355 /* ViewController.swift in Sources */,
 				A00D53C32A3209EA00597BD5 /* SharePlayView.swift in Sources */,
 				A00D53CF2A322FEA00597BD5 /* ReactionView.swift in Sources */,
 			);
@@ -573,9 +597,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jeromebach.ios-wwdc2023";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -605,9 +633,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jeromebach.ios-wwdc2023";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
